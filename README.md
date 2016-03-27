@@ -1,7 +1,8 @@
 # dfVFS REST API
 REST API for accessing remote file-system objects using dfVFS
 
-Evidence can be accessed by going to /evidence/$PathSpec
+Evidence can be accessed by going to "/evidence/$EncodedPathSpec". 
+The path specifications should be encoded using JsonPathSpecSerializer.WriteSerialized.
 
 If the path specification is for a file it returns the entire file.
 If the path specification is for a directory it returns all of the subpath specifications in that directory.
