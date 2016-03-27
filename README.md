@@ -1,4 +1,4 @@
-# dfvfs_rest_api
+# dfVFS REST API
 REST API for accessing remote file-system objects using dfVFS
 
 Evidence can be accessed by going to /evidence/<Path Spec>
