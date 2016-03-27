@@ -1,7 +1,7 @@
 # dfVFS REST API
 REST API for accessing remote file-system objects using dfVFS
 
-Evidence can be accessed by going to /evidence/<Path Spec>
+Evidence can be accessed by going to /evidence/$PathSpec
 
 If the path specification is for a file it returns the entire file.
 If the path specification is for a directory it returns all of the subpath specifications in that directory.
